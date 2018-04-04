@@ -29,7 +29,7 @@ public class TodoListInitialiser {
 
     private List<Todolist> createTodolist() {
         return Stream.of(
-                new Todolist("task 1: Do homework",true),
+                new Todolist("task 1: Do homework now",true),
                 new Todolist("task10",true),
                 new Todolist("task 2: Play football", false),
                 new Todolist("task 3: Study German", true),
